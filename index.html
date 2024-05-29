@@ -1,0 +1,239 @@
+<!--Este es un coentario en HTML-->
+<!-- DOCTY0PE: Es una declaracón de archivo tipo HTML-->
+<!DOCTYPE html>
+<!-- html: encapsula todo nuetro código - lang (idioma)-->
+<html lang="es">
+    <!--head: Toda esta información no la ve el usuario-->
+<!--head:(cabeza) metadata e información del proyecto para el navegador, también donde conectamos otros archivos-->
+<head>
+    <!--meta: metadata charset = "UTF-8" aplica un set de caracteres-->
+    <meta charset="UTF-8">
+    <!--meta: name="viewport" content="width=device-width, initial-scale=1.0"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title: el titulo de la pestaña de arriba -->
+    <title>Mi Primer Página</title>
+    <!-- favicon (logito de la pestaña)-->
+    <link rel="icon" href="/imagenes/icon.gif">
+
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.gogleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<!--Body:seccion que si se puede ver e interactuar-->
+<body>
+    <!--NAVEGACION CON ANCLAS-->
+    <div class="btn-group d-flex justify-content-center mb-5">
+        <a href="#aculco-mexico" class="btn btn-primary active" aria-current="page">Aculco, Estado de México</a>
+        <a href="#ajijic-jalisco" class="btn btn-primary">Ajijic, Jalisco</a>
+        <a href="#alamos-sonora" class="btn btn-primary">Álamos, Sonora</a>
+        <a href="#amealco-queretaro" class="btn btn-primary">Amealco de Bonfil, Querétaro</a>
+        <a href="#arteaga-coahuila" class="btn btn-primary">Arteaga, Coahuila</a>
+      </div>
+
+    <!--H1: encabezado principal-->
+    <h1>Pueblos Mágicos de México</h1>
+
+    <!--IMAGENES - src (source 7 fuente) // alt (texto alternativo, info extra de la imagen)-->
+    <!--IMAGEN  ATRAVES DE LA WEB (PEGANDO LINK DE LA DIRECCION DE LA IMAGEN)-->
+    <!--<img width="500" src="https://www." alt="Imagen de pueblos magicos">-->
+    <!--LOCALMENTE-->
+    <br>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner d-flex justify-content-center">
+          <div class="carousel-item active">
+            <img src="/imagenes/aculco1.jpg" class="d-block w-95 h-95" alt="Aculco">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/aculco.jpg" class="d-block w-95 h-95" alt="aculco,mexico">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/ajijic.jpg" class="d-block w-95 h-95" alt="Ajijic">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/ajijic1.jpg" class="d-block w-95 h-95" alt="Ajijic,Jalisco">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/alamos.jpg" class="d-block w-95 h-95" alt="Ajlamos, Sonora">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/amealco.jpg" class="d-block w-95 h-95" alt="Amealco">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/amealco1.jpg" class="d-block w-95 h-95" alt="Amealco, Querétaro">
+          </div>
+          <div class="carousel-item">
+            <img src="/imagenes/arteaga.jpg" class="d-block w-95 h-95" alt="Arteaga, Coahuila">
+          </div>
+        </div>
+      </div>
+    
+    <!--LISTAS - ordenadas y no ordenadas-->
+    <!--LISTAS ORDENADAS-->
+    <br><br><br>
+    <h3>Los 5 Pueblos Mágicos más Visitados de México</h3>
+    <ol>
+        <!--li: item list - elemento de lista-->
+        <li>Aculco, Estado de México</li>
+        <li>Ajijic, Jalisco</li>
+        <li>Álamos, Sonora</li>
+        <li>Amealco de Bonfil, Querétaro</li>
+        <li>Arteaga, Coahuila</li>
+    </ol>
+    <br><br>
+    <!--LISTAS NO ORDENADAS / UL: Unordered lists-->
+    <!--<h3>Pueblos Visitados</h3>
+    <ul>
+        <li>San Juan Cahuatepec</li>
+        <li>San Isidro</li>
+        <li>Ladrillera</li>
+        <li>Tierra Blanca</li>
+    </ul>-->
+
+    <!--PARRAFOS Y NAVEGACIONES-->
+    <!--Atributos de la etiqueta de apertura-->
+    <h3 id="aculco-mexico">Aculco, Estado de México</h3>
+    <!-- P- ELEMENTO PARRAFO, IDEAL PARA TEXTO-->
+    <p>
+        Este Pueblo Mágico reside entre montañas, peñas y cascadas, 
+        donde el sol inunda de luz calles, callejones y refleja su 
+        luz en sus blancas paredes. Así comienza cada día el verdadero Aculco.
+        <br><br>
+        Aculco combina maravillas, como un Santuario natural con una 
+        caída de 15 metros que humedece enormes columnas basálticas, 
+        con la magnífica arquitectura tradicional, y emprender diversas 
+        aventuras en sus atracciones naturales para practicar el campismo, 
+        el rapel o el senderismo.
+        <div class="aculco">
+        <img src="https://www.gob.mx/cms/uploads/image/file/530648/Mexico_Aculco_Cascada-Tixhin_u-web.jpg" alt="Santuario Natural">
+    </div>
+    </p><br>
+    <h4>Atractivos:</h4>
+    <ul>
+        <li>Balneario municipal</li>
+        <li>Casa de Cultura</li>
+        <li>Casa Hidalgo</li>
+        <li>Cascada La Concepción</li>
+        <li>Cascada Tixhiñu</li>
+        <li>Hacienda Arroyo Zarco</li>
+    </ul>
+
+    <h3 id="ajijic-jalisco">Ajijic, Jalisco</h3>
+    <!-- P- ELEMENTO PARRAFO, IDEAL PARA TEXTO-->
+    <p>
+        Fundada en 1531, su nombre proviene del náhuatl Axixic que significa 
+        "donde se derrama el agua" o “donde brota el agua”, es una de las villas 
+        más antiguas de México. Mucho antes de la conquista española ocupó esta zona, 
+        en las orillas del Lago de Chapala, una pequeña comunidad náhuatl y nombraron 
+        a este lugar -según su mitología- uno de los cuatro puntos cardinales, en 
+        referencia al clima y energía poderosa de la región.
+        <br><br>
+        Ajijic es un pequeño pueblo ubicado en la Ribera del Lago de Chapala excelente 
+        para disfrutar de unas vacaciones en total relajación y descanso. Por algo casi 
+        20000 extranjeros han hecho de este pueblo de Jalisco su lugar favorito para vivir 
+        o vacacionar, el fenómeno de la migración en la Rivera de Chapala y principalmente 
+        en la localidad de Ajijic.
+        <div class="ajijic">
+        <img src="https://www.gob.mx/cms/uploads/article/main_image/102841/Copia_de_ajijic-jalisco-dane-strom-2601_2.jpg"  alt="Ajijic, Jalisco">
+    </div>
+    </p>
+    <h4>Atractivos:</h4>
+    <ul>
+        <li>Malecón de Ajijic</li>
+        <li>Restaurantes de cocina mexicana contemporánea
+        <li>Restaurantes de comida internacional</li>
+        <li>Kiosko y parque central</li>
+    </ul>
+
+    <h3 id="alamos-sonora">Álamos, Sonora</h3>
+    <!-- P- ELEMENTO PARRAFO, IDEAL PARA TEXTO-->
+    <p>
+        Muy cerca de la frontera con Sinaloa y Chihuahua se encuentra Álamos, un Pueblo Mágico 
+        que sorprende por su arquitectura y tradiciones, resultado de la fusión del barroco 
+        español y de nuestros pueblos originarios. Al pasear por sus calles empedradas y 
+        callejones se pueden admirar antiguas casonas muy bien conservadas que cuentan historias 
+        de otras épocas, especialmente del auge minero debido a la veta de La Europea.
+        <br><br>
+        Actualmente es sede de uno de los eventos culturales más importantes del noroeste del país, 
+        el Festival Internacional Alfonso Ortiz Tirado, pues aquí nació el célebre médico, tenor y 
+        compositor. Álamos también vio nacer a María Félix, a quien se le dedica un museo que exhibe 
+        más de 700 piezas y algunos objetos personales auténticos de “la Doña”.
+        <div class="alamos">
+        <img src="https://www.gob.mx/cms/uploads/article/main_image/84635/A_lamos-Parroquia-de-La-Puri_sima-Concepcio_n-web.jpg" alt="Parroquia de La Purísima Concepción en Álamos, Sonora.">
+    </div>
+    </p>
+    <h4>Atractivos:</h3>
+    <ul>
+        <li>Antigua Hacienda de los Santos</li>
+        <li> Área Natural Protegida Sierra de Álamos</li>
+        <li>Callejón del Beso</li>
+        <li>Casa de Moneda</li>
+    </ul>
+
+    <h3 id="amealco-queretaro">Amealco de Bonfil, Querétaro</h3>
+    <!-- P- ELEMENTO PARRAFO, IDEAL PARA TEXTO-->
+    <p>
+        Este Pueblo Mágico siempre ha tenido mucho que ofrecer a sus visitantes. Es un lugar especial por 
+        sus cuerpos de agua, y sus paisajes boscosos. En Amealco se pueden realizar distintas actividades 
+        tales como practicar campismo, ciclismo de montaña, senderismo, ecoturismo y rutas en cuatrimoto.
+        <br><br>
+        Amealco tiene muchas tradiciones y cultura enraizadas que se manifiestan en cada rincón. En Amealco 
+        cantidad de habitantes tiene raíces otomíes lo cual se traslada a las festividades, gastronomía y 
+        artesanías.
+        <div class="amealco">
+        <img src="https://www.gob.mx/cms/uploads/image/file/531307/Amealco-Quere_taro-Cerro-de-la-Cruz-web.jpg" alt="Amealco">
+    </div>
+    </p>
+    <h4>Atractivos:</h3>
+    <ul>
+        <li>Antiguo Templo de San Ildefonso Tultepec</li>
+        <li>Barranca de Amealco</li>
+        <li>Cabecera municipal</li>
+        <li>Casa de las artesanías</li>
+        <li>Cascada La Piedad</li>
+    </ul>
+
+    <h3 id="arteaga-coahuila">Arteaga, Coahuila</h3>
+    <!-- P- ELEMENTO PARRAFO, IDEAL PARA TEXTO-->
+    <p>
+        Un Pueblo Mágico en medio de una inmensa zona de bosques con pinos y valles de manzanos de los más 
+        impresionantes del país. Poseedor de un clima sumamente agradable donde predomina el viento fresco 
+        a cualquier hora del día. Arteaga es un destino que por sus bellos paisajes boscosos y cumbres 
+        nevadas en invierno, se considera “La Suiza de México”.
+        <br><br>
+        Este lugar de la Sierra Madre Oriental rodeado por las enormes montañas de La Viga, La Martha y La 
+        Siberia es el escenario ideal para practicar ecoturismo y actividades de aventura, cuenta con hermosas 
+        cabañas donde los visitantes pueden disfrutar del ambiente campestre y practicar senderismo, avistamiento 
+        de aves y paseos a caballo.
+        <div class="arteaga">
+        <img src="https://www.gob.mx/cms/uploads/image/file/520385/Arteaga-la-Suiza-en-Mexico-web.jpg" alt="Arteaga">
+    </div>
+    </p>
+    <h4>Atractivos:</h3>
+    <ul>
+        <li>Acampar</li>
+        <li>Alameda Venustiano Carranza</li>
+        <li>Campo de golf de Monterreal</li>
+        <li>Cañón de San Isidro</li>
+        <li>Cascada La Piedad</li>
+    </ul>
+    
+    <!--IMAGEN CLICKEABLE-->
+    <!--a- ancla anchor // elemento para redirigir a otro sitio eb o 
+    al mismo sitio-->
+    <!--href (A donde te rediri)-->
+    <!--<a href="#pueblo1">
+        <img width="950" src="/imagenes/20171001_153300.jpg" alt="pueblo Sayultepec">
+    </a>-->
+
+
+    <p>Está página utiliza iconos de
+        <a href="https://www.flaticon.com"> flaticon</a>
+    </p>
+</body>
+</html>
