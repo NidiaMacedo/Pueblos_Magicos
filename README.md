@@ -5,7 +5,7 @@
 1. [Intro](#)
 2. [Que construí](#)
 3. [Objetivo del proyecto](#)
-4. [Link a Demo](#)
+
 
 ****
 
@@ -34,5 +34,3 @@ Las tecnologías que utilice son:
 ## 3. Objetivo del proyecto
 Aprender a utilizar las etiquetas estándar de HTML5, CSS3 y BOOTSTRAP.
 
-## 4. Link a Demo
-Aquí puedes ver mi proyecto terminado:: https://clonde-google-khaki.vercel.app/
